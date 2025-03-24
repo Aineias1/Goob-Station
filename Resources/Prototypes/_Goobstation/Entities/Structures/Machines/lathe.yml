@@ -227,3 +227,33 @@
         - Sheet
         - RawMaterial
         - Ingot
+
+- type: entity
+  id: FoodFab
+  parent: BaseLathe
+  name: foodfab
+  description: Converts plants into biomass, which can be used to construct food.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Structures/Machines/foodfab.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+  - type: Machine
+    board: FoodfabMachineCircuitboard
+  - type: MaterialStorage
+  - type: ProduceMaterialExtractor
+  - type: ItemSlots
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+  - type: Lathe
+    idleState: icon
+    runningState: building
+    staticPacks:
+    - FoodFabFoodStatic

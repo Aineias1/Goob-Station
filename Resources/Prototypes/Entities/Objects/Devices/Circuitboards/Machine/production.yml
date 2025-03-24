@@ -1324,3 +1324,17 @@
         MatterBin: 2
         Manipulator: 2
 # Shitmed Change End
+
+- type: entity
+  id: FoodfabMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: foodfab machine board
+  description: A machine printed circuit board for a foodfab.
+  components:
+    - type: MachineBoard
+      prototype: FoodFab
+      stackRequirements:
+        MatterBin: 3
+        Manipulator: 3
+        Glass: 1
+        Capacitor: 2

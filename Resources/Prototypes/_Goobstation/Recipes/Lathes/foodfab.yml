@@ -1,0 +1,79 @@
+- type: latheRecipe 
+  id: FoodFabBurger
+  result: FoodBurgerPlain
+  completetime: 10
+  materials:
+    Biomass: 20
+    
+- type: latheRecipe 
+  id: FoodFabBread
+  result: FoodBreadPlain
+  completetime: 10
+  materials:
+    Biomass: 20
+    
+- type: latheRecipe 
+  id: FoodFabBreadCotton
+  result: FoodBreadCotton
+  completetime: 10
+  materials:
+    Biomass: 20
+    
+- type: latheRecipe 
+  id: FoodFabPizza
+  result: FoodPizzaMargherita
+  completetime: 10
+  materials:
+    Biomass: 20
+    
+- type: latheRecipe 
+  id: FoodFabPizzaCotton
+  result: FoodPizzaCotton
+  completetime: 10
+  materials:
+    Biomass: 20
+    
+- type: latheRecipe 
+  id: FoodFabFries
+  result: FoodMealFries
+  completetime: 10
+  materials:
+    Biomass: 20
+    
+- type: latheRecipe 
+  id: FoodFab
+  result: Food
+  completetime: 10
+  materials:
+    Biomass: 20
+    
+- type: latheRecipe 
+  id: FoodFabWaffles
+  result: FoodBakedWaffle
+  completetime: 10
+  materials:
+    Biomass: 20
+    
+- type: latheRecipe 
+  id: FoodFabCake
+  result: FoodCakePlain
+  completetime: 10
+  materials:
+    Biomass: 20 
+    
+- type: latheRecipe 
+  id: FoodFabCroissant
+  result: FoodBakedCroissant
+  completetime: 10
+  materials:
+    Biomass: 20
+
+- type: latheRecipe 
+  id: FoodFabCroissantCotton
+  result: FoodBakedCroissantCotton
+  completetime: 10
+  materials:
+    Biomass: 20
+    
+
+    

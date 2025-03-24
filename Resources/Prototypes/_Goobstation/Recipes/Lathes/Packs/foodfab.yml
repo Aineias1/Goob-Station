@@ -1,0 +1,13 @@
+- type: latheRecipePack
+  id: FoodFabFoodStatic
+  recipes:
+  - FoodFabBurger
+  - FoodFabBread
+  - FoodFabBreadCotton
+  - FoodFabPizza
+  - FoodFabPizzaCotton
+  - FoodFabFries
+  - FoodFabWaffles
+  - FoodFabCake
+  - FoodFabCroissant
+  - FoodFabCroissantCotton
