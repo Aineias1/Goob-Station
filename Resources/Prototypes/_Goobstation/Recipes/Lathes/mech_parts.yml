@@ -93,8 +93,9 @@
   - Durand
   completetime: 10
   materials:
-    Steel: 3000
+    Steel: 1000
     Silver: 900
+    Titanium: 2000
 
 - type: latheRecipe
   id: DurandHead
@@ -166,7 +167,8 @@
   - Gygax
   completetime: 10
   materials:
-    Steel: 3000
+    Steel: 2000
+    Titanium: 1000
 
 - type: latheRecipe
   id: GygaxHead

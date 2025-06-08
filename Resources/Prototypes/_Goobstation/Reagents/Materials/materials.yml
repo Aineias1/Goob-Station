@@ -25,3 +25,31 @@
   icon: { sprite: _Goobstation/Objects/Materials/materials.rsi, state: bluespace_crystal }
   color: "#80ffff"
   price: 1.175
+
+
+- type: material
+  id: Copper
+  stackEntity: SheetCopper1
+  name: materials-copper
+  unit: materials-unit-sheet
+  icon: { sprite: /Textures/_Goobstation/Objects/Materials/Sheets/metal.rsi, state: copper }
+  color: "#a36644"
+  price: 0.15
+
+- type: material
+  id: Lead
+  stackEntity: SheetLead1
+  name: materials-lead
+  unit: materials-unit-sheet
+  icon: { sprite: /Textures/_Goobstation/Objects/Materials/Sheets/metal.rsi, state: lead }
+  color: "#808883"
+  price: 0.25
+
+- type: material
+  id: Titanium
+  stackEntity: SheetTitanium1
+  name: materials-titanium
+  unit: materials-unit-sheet
+  icon: { sprite: /Textures/Objects/Materials/Sheets/metal.rsi, state: titanium }
+  color: "#db35f1"
+  price: 0.30

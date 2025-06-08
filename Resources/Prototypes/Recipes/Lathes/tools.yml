@@ -326,6 +326,7 @@
   result: WeaponParticleDecelerator
   completetime: 6
   materials:
-    Steel: 750
+    Steel: 600
     Plasma: 150
     Uranium: 150
+    Lead: 150

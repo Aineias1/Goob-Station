@@ -7,3 +7,7 @@
 
 materials-bscrystal = bluespace crystal
 materials-bscrystal-unprocessed = unprocessed bluespace crystal
+materials-copper = copper
+materials-lead = lead
+materials-aluminium = aluminium
+materials-titanium = titanium

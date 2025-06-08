@@ -116,11 +116,9 @@
       steel:
         reagents:
         - ReagentId: Iron
-          Quantity: 7
+          Quantity: 8
         - ReagentId: Carbon
           Quantity: 2
-        - ReagentId: Lead
-          Quantity: 1
   - type: Tag # Goobstation
     tags:
     - Sheet

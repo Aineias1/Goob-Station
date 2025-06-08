@@ -19,3 +19,24 @@
   icon: { sprite: /Textures/_Goobstation/Objects/Materials/materials.rsi, state: bluespace_crystal }
   spawn: MaterialBSCrystal1Unprocessed
   maxCount: 30
+
+- type: stack
+  id: Copper
+  name: copper
+  icon: { sprite: /Textures/_Goobstation/Objects/Materials/Sheets/metal.rsi, state: copper }
+  spawn: SheetCopper1
+  maxCount: 30
+
+- type: stack
+  id: Lead
+  name: lead
+  icon: { sprite: /Textures/_Goobstation/Objects/Materials/Sheets/metal.rsi, state: lead }
+  spawn: SheetLead1
+  maxCount: 30
+
+- type: stack
+  id: Titanium
+  name: titanium
+  icon: { sprite: /Textures/_Goobstation/Objects/Materials/Sheets/metal.rsi, state: titanium }
+  spawn: SheetTitanium1
+  maxCount: 30

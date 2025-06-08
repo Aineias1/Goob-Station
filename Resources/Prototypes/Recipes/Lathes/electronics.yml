@@ -78,7 +78,7 @@
   - Circuitry
   completetime: 2
   materials:
-    Steel: 100
+    Copper: 100
     Plastic: 300
 
 - type: latheRecipe
@@ -86,7 +86,7 @@
   parent: BaseElectronicsRecipe
   id: BaseCheapElectronicsRecipe
   materials:
-    Steel: 50
+    Copper: 50
     Plastic: 50
 
 - type: latheRecipe
@@ -94,7 +94,7 @@
   parent: BaseElectronicsRecipe
   id: BaseCheapCircuitboardRecipe
   materials:
-     Steel: 50
+     Copper: 50
      Glass: 250
 
 - type: latheRecipe
@@ -103,7 +103,7 @@
   id: BaseCircuitboardRecipe
   completetime: 4
   materials:
-    Steel: 100
+    Copper: 100
     Glass: 500
 
 - type: latheRecipe
@@ -111,7 +111,7 @@
   parent: BaseCircuitboardRecipe
   id: BaseGoldCircuitboardRecipe
   materials:
-    Steel: 100
+    Copper: 100
     Glass: 500
     Gold: 100
 
@@ -120,7 +120,7 @@
   parent: BaseCircuitboardRecipe
   id: BaseSilverCircuitboardRecipe
   materials:
-    Steel: 100
+    Copper: 100
     Glass: 500
     Silver: 100
 
@@ -129,7 +129,7 @@
   parent: BaseCircuitboardRecipe
   id: BaseBananiumCircuitboardRecipe
   materials:
-    Steel: 100
+    Copper: 100
     Glass: 500
     Bananium: 100
 

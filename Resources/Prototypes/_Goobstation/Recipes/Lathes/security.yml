@@ -194,10 +194,11 @@
   - MechWeapons
   completetime: 10
   materials:
-    Steel: 2800
+    Steel: 2300
     Plastic: 1000
     Plasma: 750
     Glass: 500
+    Titanium: 500
 
 - type: latheRecipe
   id: WeaponMechCombatSolarisLaser
@@ -283,9 +284,10 @@
   - MechWeapons
   completetime: 10
   materials:
-    Steel: 2500
+    Steel: 2200
     Glass: 1500
     Plastic: 750
+    Titanium: 300
 
 - type: latheRecipe
   id: MechEquipmentKineticAccelerator
@@ -335,11 +337,12 @@
   id: EnergyMagRifleOverchargeLethal
   result: EnergyMagRifleOverchargeLethal
   materials:
-    Steel: 400
+    Steel: 300
     Gold: 300
     Glass: 300
     Plasma: 500
     Uranium: 300
+    Lead: 100
 
 - type: latheRecipe
   parent: BaseAmmoRecipe

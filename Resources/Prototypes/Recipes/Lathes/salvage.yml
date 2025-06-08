@@ -57,10 +57,11 @@
   result: AdvancedMineralScannerEmpty
   completetime: 1
   materials:
-    Steel: 1000
+    Steel: 800
     Glass: 300
     Plastic: 300
     Uranium: 500
+    Lead: 200
 
 - type: latheRecipe
   id: Fulton

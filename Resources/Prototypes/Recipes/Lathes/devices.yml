@@ -178,11 +178,12 @@
   result: ClothingBackpackHolding
   completetime: 5
   materials:
-    Steel: 2000
+    Steel: 1500
     Silver: 750
     Plasma: 1500
     Uranium: 150
     BSCrystal: 200 # Goobstation
+    Lead: 500
 
 - type: latheRecipe
   id: ClothingBackpackSatchelHolding
@@ -194,6 +195,7 @@
     Plasma: 1500
     Uranium: 150
     BSCrystal: 200 # Goobstation
+    Lead: 500
 
 - type: latheRecipe
   id: ClothingBackpackDuffelHolding
@@ -205,6 +207,7 @@
     Plasma: 1500
     Uranium: 150
     BSCrystal: 200 # Goobstation
+    Lead: 500
 
 - type: latheRecipe
   id: OreBagOfHolding
@@ -216,6 +219,7 @@
     Plasma: 1500
     Uranium: 150
     BSCrystal: 100 # Goobstation
+    Lead: 500
 
 - type: latheRecipe
   id: ClothingMaskWeldingGas
@@ -241,9 +245,10 @@
   result: DeviceQuantumSpinInverter
   completetime: 5
   materials:
-    Steel: 700
+    Steel: 600
     Glass: 100
     Uranium: 100
+    Lead: 100
 
 - type: latheRecipe
   id: WeaponProtoKineticAccelerator

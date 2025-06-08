@@ -46,6 +46,9 @@
 # Alphabetical order people!
 
 - type: Tag
+  id: Aluminium
+
+- type: Tag
   id: ArrythmicKnife
 
 - type: Tag
@@ -134,6 +137,9 @@
 
 - type: Tag
   id: ContrabandDetectorCircuitboard
+
+- type: Tag
+  id: Copper
 
 - type: Tag
   id: CursedAnimalMask
@@ -305,6 +311,9 @@
 
 - type: Tag
   id: Kidneys
+
+- type: Tag
+  id: Lead
 
 - type: Tag
   id: Liver
