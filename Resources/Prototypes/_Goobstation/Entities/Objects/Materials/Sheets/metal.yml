@@ -1,0 +1,229 @@
+- type: entity
+  abstract: true
+  parent: BaseItem
+  id: SheetMetalBaseGoob
+  description: A sheet of metal, used often on the station in various applications.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Objects/Materials/Sheets/metal.rsi
+  - type: Item
+    sprite: _Goobstation/Objects/Materials/Sheets/metal.rsi
+    size: Normal
+  - type: StaticPrice
+    price: 0
+  - type: Tag
+    tags:
+    - Sheet
+    - Metal
+    - DroneUsable # Goobstation
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        canReact: false
+
+- type: entity
+  parent: SheetMetalBaseGoob
+  id: SheetCopper
+  name: copper
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Copper: 100
+  - type: Stack
+    stackType: Copper
+    baseLayer: base
+    layerStates:
+    - copper
+    - copper_2
+    - copper_3
+  # Goobstation - Custom stack splitting dialog
+  - type: UserInterface
+    interfaces:
+      enum.StackCustomSplitUiKey.Key:
+        type: StackCustomSplitBoundUserInterface
+  - type: Sprite
+    state: copper_3
+    layers:
+    - state: copper_3
+      map: ["base"]
+  - type: Item
+    heldPrefix: copper
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: copper
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Copper
+          Quantity: 10
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - Copper
+
+- type: entity
+  parent: SheetCopper
+  id: SheetCopper10
+  name: copper
+  suffix: 10
+  components:
+  - type: Sprite
+    state: copper
+  - type: Stack
+    stackType: Copper
+    count: 10
+
+- type: entity
+  parent: SheetCopper
+  id: SheetCopper1
+  name: copper
+  suffix: Single
+  components:
+  - type: Sprite
+    state: copper
+  - type: Stack
+    stackType: Copper
+    count: 1
+
+- type: entity
+  parent: SheetMetalBaseGoob
+  id: SheetLead
+  name: lead
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Lead: 100
+  - type: Stack
+    stackType: Lead
+    baseLayer: base
+    layerStates:
+    - lead
+    - lead_2
+    - lead_3
+  # Goobstation - Custom stack splitting dialog
+  - type: UserInterface
+    interfaces:
+      enum.StackCustomSplitUiKey.Key:
+        type: StackCustomSplitBoundUserInterface
+  - type: Sprite
+    state: lead_3
+    layers:
+    - state: lead_3
+      map: ["base"]
+  - type: Item
+    heldPrefix: lead
+  - type: Appearance
+  - type: Extractable
+    grindableSolutionName: lead
+  - type: SolutionContainerManager
+    solutions:
+      steel:
+        reagents:
+        - ReagentId: Lead
+          Quantity: 10
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - Lead
+
+- type: entity
+  parent: SheetLead
+  id: SheetLead10
+  name: lead
+  suffix: 10
+  components:
+  - type: Sprite
+    state: lead
+  - type: Stack
+    stackType: Lead
+    count: 10
+
+- type: entity
+  parent: SheetLead
+  id: SheetLead1
+  name: lead
+  suffix: Single
+  components:
+  - type: Sprite
+    state: lead
+  - type: Stack
+    stackType: Lead
+    count: 1
+
+- type: entity
+  parent: SheetMetalBaseGoob
+  id: SheetTitanium
+  name: titanium
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Titanium: 100
+  - type: Stack
+    stackType: Titanium
+    baseLayer: base
+    layerStates:
+    - titanium
+    - titanium_2
+    - titanium_3
+  # Goobstation - Custom stack splitting dialog
+  - type: UserInterface
+    interfaces:
+      enum.StackCustomSplitUiKey.Key:
+        type: StackCustomSplitBoundUserInterface
+  - type: Sprite
+    state: titanium_3
+    layers:
+    - state: titanium_3
+      map: ["base"]
+  - type: Item
+    heldPrefix: titanium
+  - type: Appearance
+  - type: Tag # Goobstation
+    tags:
+    - Sheet
+    - Metal
+    - Titanium
+
+- type: entity
+  parent: SheetTitanium
+  id: SheetTitanium10
+  name: titanium
+  suffix: 10
+  components:
+  - type: Sprite
+    state: titanium
+  - type: Stack
+    stackType: Titanium
+    count: 10
+
+- type: entity
+  parent: SheetTitanium
+  id: SheetTitanium1
+  name: titanium
+  suffix: Single
+  components:
+  - type: Sprite
+    state: titanium
+  - type: Stack
+    stackType: Titanium
+    count: 1
